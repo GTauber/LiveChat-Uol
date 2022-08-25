@@ -9,20 +9,63 @@
     <title>Uol Chat</title>
 </head>
 <body>
-    <!-- Chat Page -->
-    <header>
-        <img src="./assets/img/logo 1.png" alt="Chat Logo" class="ch-header-logo">
-    </header>
-    <main>
+    <div class="container">
 
-    </main>
-    <footer>
+        <!-- Login Page -->
+        <div class="login-body hide">
+            <div class="login-logo">
+                <img src="./assets/img/logo 1.png" alt="Logo Login">
+            </div>
+            <form>
+                <input type="text" class="fName" placeholder="Type your name...">
+                <button class="sign-in">Enter</button>
+            </form>
+        </div>
 
-    </footer>
+        <!-- Chat Page -->
+        <header>
+            <img src="./assets/img/logo 1.png" alt="Chat Logo" class="ch-header-logo">
+            <ion-icon name="people" class="friends-menu"></ion-icon>
+        </header>
+        <main>
+            <div class="status">
+                <span class="time">(09:21:45)</span>
+                <strong class="name">..X..</strong> 
+                <span class="status-msg">
+                    entra na sala...</span>
+            </div>
+            <div class="message">
+                <span class="time">(09:21:45)</span>
+                <strong class="name">..X..</strong> 
+                <span class="msg">Algo</span>
+            </div>
+            <div class="private-msg">
+                <span class="time">(09:21:45)</span>
+                <strong class="name">..X..</strong> 
+                <span class="msg">Algo</span>
+            </div>
+        </main>
+        <footer class="">
+            <input type="text" name="Your message" id="fmessage" placeholder="Write your message here...">
+            <ion-icon name="paper-plane-outline" class="send"></ion-icon>
+        </footer>
+
+        <aside class="friends-menu-bar">
+            <div class="back">
+
+            </div>
+            <div class="side-menu">
+
+            </div>
+
+            
+        </aside>
+
+    </div>
 
     <!-- Scripts -->
 
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 
     <script src="./assets/js/script.js"></script>
 </body>
