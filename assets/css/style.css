@@ -20,6 +20,11 @@ body {
     display: none !important;
 }
 
+.flex-al {
+    display: flex;
+    align-items: center;
+}
+
 
 
 /* CMP -> Chat Main Page */
@@ -201,5 +206,100 @@ footer {
 .side-menu {
     background-color: white;
     width: 70vw;
-
 }
+
+.side-menu-header {
+    text-align: center;
+    height: 8.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu-header h1 {
+    font-weight: bold;
+    font-size: 20px;
+    width: 75%;
+}
+
+/*  -- Online -- */
+
+.online-people {
+    display: flex;
+    flex-direction: column;
+}
+
+.online-people li {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.person-icon {
+    font-size: 26px;
+}
+
+.person-name {
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.visibility h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 0px;
+}
+
+.visibility-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.visibility-options li {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.public {
+    display: flex;
+    justify-content: space-between;
+}
+
+.public-icon {
+    font-size: 26px;
+}
+
+.public-option {
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.pvt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pvt-icon {
+    font-size: 26px;
+}
+
+.pvt-option {
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.checkmark {
+    font-size: 26px;
+    color: green;
+    font-weight: bold;
+}
+
+
+
